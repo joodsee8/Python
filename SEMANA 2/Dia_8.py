@@ -14,7 +14,7 @@ alarma_T = Temperatura_R > T_max
 alarma_P = Presion_R >= P_max
 alarma_N = Nivel_T < N_min
 
-print(f"Estado final de la alarma {alarma_T == alarma_P}")
+print(f"Estado final de la alarma {alarma_T == alarma_T}")
 print(f"Estado final de la alarma {alarma_N}")
 print(f"Estado final de la alarma {Presion_R == 0.0}")
 

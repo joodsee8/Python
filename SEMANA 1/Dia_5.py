@@ -3,7 +3,7 @@ radio = 5.2
 moles_soluto = 2.5
 litros_solvente = 0.5
 
-area_base = pi*(radio*radio)
+area_base = pi*(radio**2)
 molaridad = moles_soluto/litros_solvente
 
 print(f"El area es: {area_base}")
